@@ -12,7 +12,12 @@ export default function Footer() {
                 </div>
                 <div className="row">
                     <img src={email} alt="email icon" className="menu-icon" />
-                    <p>bellenger.lucie@gmail.com</p>
+                    <a
+                        className="email"
+                        href="mailto:bellenger.lucie@gmail.com"
+                    >
+                        bellenger.lucie@gmail.com
+                    </a>
                 </div>
             </div>
         </footer>
