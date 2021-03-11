@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    align-items: center;
+}
+.box-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.made-by {
+    height: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

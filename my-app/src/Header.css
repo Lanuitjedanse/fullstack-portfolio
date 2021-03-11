@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+.menu-icon {
+    padding: 10px;
+    height: 60px;
+}
