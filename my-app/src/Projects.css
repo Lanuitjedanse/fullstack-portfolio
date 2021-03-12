@@ -90,7 +90,7 @@
 
 @media only screen and (max-width: 568px) {
     .box-project {
-        height: 80vh;
+        height: 90vh;
     }
 
     .description {
@@ -98,16 +98,17 @@
     }
 
     .project-icon {
+        padding: 5px;
         height: 30px;
         width: 30px;
     }
 
     .box-right h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) and (max-width: 950px) {
     .box-project {
         height: 70vh;
     }
