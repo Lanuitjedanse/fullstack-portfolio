@@ -43,11 +43,6 @@
     width: 40px;
 }
 
-.box-right:hover {
-    color: white;
-    background-color: black;
-}
-
 .box-right h2 {
     text-align: center;
     line-height: 2em;
@@ -65,6 +60,39 @@
 .rotate-center:hover {
     -webkit-animation: rotate-center 0.6s ease-in-out both;
     animation: rotate-center 0.6s ease-in-out both;
+}
+
+.color1 {
+    color: #8e97ff;
+    fill: #8e97ff;
+}
+
+.color1:hover {
+    color: white;
+    background-color: #8e97ff;
+    fill: #8e97ff;
+}
+
+.color2 {
+    color: #fcb0e9;
+    fill: #fcb0e9;
+}
+
+.color2:hover {
+    color: white;
+    background-color: #fcb0e9;
+    fill: #fcb0e9;
+}
+
+.color3 {
+    color: #5adcde;
+    fill: #5adcde;
+}
+
+.color3:hover {
+    color: white;
+    background-color: #5adcde;
+    fill: #5adcde;
 }
 
 @-webkit-keyframes rotate-center {
