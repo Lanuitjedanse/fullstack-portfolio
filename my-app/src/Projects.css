@@ -4,6 +4,10 @@
     height: 45vh;
     width: 100vw;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 
 .box-left {
     display: flex;

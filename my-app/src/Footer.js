@@ -1,6 +1,7 @@
 import "./Footer.css";
 import phone from "./phone.svg";
 import email from "./email.svg";
+import github from "./github.svg";
 
 export default function Footer() {
     return (
@@ -17,6 +18,15 @@ export default function Footer() {
                         href="mailto:bellenger.lucie@gmail.com"
                     >
                         bellenger.lucie@gmail.com
+                    </a>
+                </div>
+                <div className="row">
+                    <img src={github} alt="github icon" className="menu-icon" />
+                    <a
+                        className="email"
+                        href="https://github.com/Lanuitjedanse"
+                    >
+                        Lanuitjedanse
                     </a>
                 </div>
             </div>

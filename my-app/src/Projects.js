@@ -11,8 +11,7 @@ export default function Projects() {
                 "My final fullstack project during the bootcamp at Spiced Academy. Lanuitjedanse allows you to find a bar or a club depending on your music taste. This project was done in 1 week using Node.js, React and Postgres.",
             image: "/lanuitjedanse.gif",
             url: "https://lanuitjedanse.herokuapp.com/",
-            urlBackground:
-                "https://images.unsplash.com/photo-1562619371-b67725b6fde2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
+            urlBackground: "/background1.jpeg",
         },
         {
             id: 1,
