@@ -12,7 +12,7 @@ export default function Header() {
 
     return (
         <header>
-            <img src={portfolio} className="menu-icon" alt="portfolio icon" />
+            <img src={portfolio} className="header-icon" alt="portfolio icon" />
             <h1>Lucie's Portfolio</h1>
         </header>
     );

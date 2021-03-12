@@ -50,6 +50,7 @@
 
 .box-right h2 {
     text-align: center;
+    line-height: 2em;
 }
 
 .box-right:hover svg {
@@ -58,6 +59,7 @@
 
 .description {
     width: 50%;
+    margin-bottom: 10px;
     text-align: center;
 }
 .rotate-center:hover {
@@ -83,5 +85,74 @@
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .box-project {
+        height: 80vh;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .project-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .box-right h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .box-project {
+        height: 70vh;
+    }
+
+    .description {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .project-icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .box-footer {
+        font-size: 15px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+    .box-project {
+        height: 90vh;
+    }
+
+    .description {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .project-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .box-footer {
+        font-size: 12px;
+        justify-content: center;
+    }
+
+    .menu-icon {
+        height: 40px;
+    }
+
+    .box-right h2 {
+        font-size: 15px;
     }
 }

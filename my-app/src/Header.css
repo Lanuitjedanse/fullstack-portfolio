@@ -7,6 +7,12 @@ header {
     height: 100px;
 }
 
+.header-icon {
+    margin: 0px 22px;
+    padding: 10px;
+    height: 60px;
+}
+
 .menu-icon {
     padding: 10px;
     height: 60px;
