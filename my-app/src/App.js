@@ -11,8 +11,13 @@ function App() {
         <BrowserRouter>
             <div className="App">
                 <Header />
-                <img className="banner" src="/background6.jpg" alt="building" />
-
+                <div className="no-margin">
+                    <img
+                        className="banner"
+                        src="/background6.jpg"
+                        alt="building"
+                    />
+                </div>
                 <Projects />
                 <Footer />
             </div>

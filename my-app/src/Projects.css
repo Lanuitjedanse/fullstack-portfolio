@@ -31,12 +31,6 @@
     object-fit: cover;
 }
 
-.banner {
-    width: 100vw;
-    height: 45vh;
-    object-fit: cover;
-}
-
 .project-icon {
     padding: 5px;
     height: 40px;
@@ -93,6 +87,11 @@
     color: white;
     background-color: #5adcde;
     fill: #5adcde;
+}
+
+.no-margin {
+    display: flex;
+    flex-direction: column;
 }
 
 @-webkit-keyframes rotate-center {
@@ -186,7 +185,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 700px) {
+@media only screen and (min-width: 600px) and (max-width: 850px) {
     .banner {
         width: 100vw;
         height: 25vh;

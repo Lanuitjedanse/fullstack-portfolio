@@ -40,7 +40,7 @@ export default function Projects() {
         <>
             {projects &&
                 projects.map((project) => (
-                    <div key={project.id}>
+                    <div className="no-margin" key={project.id}>
                         <div className="box-project">
                             <div className="box-left">
                                 <img
