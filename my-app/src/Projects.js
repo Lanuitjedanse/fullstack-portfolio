@@ -1,8 +1,28 @@
 import "./Projects.css";
 import React from "react";
+import ReactDOM from "react-dom";
+import GifPlayer from "react-gif-player";
+import playButton from "./play-button.svg";
+
+// import MyGifWrapper from "./MyGifWrapper";
+
+// import GifPlayer from "./GifPlayer";
+import { useEffect, useState } from "react";
+
 import { ReactComponent as Next } from "./next.svg";
+
 // import { Link } from "react-router-dom";
 export default function Projects() {
+    const [play, setPlay] = useState(false);
+    // const [buttonVisible, setButtonVisible] = useState(true);
+
+    // const pause = () => {
+    //     setPlay(!play);
+    // };
+    console.log("setPlay: ", setPlay);
+    const playOrPause = (e) => {
+        setPlay(!play);
+    };
     const projects = [
         {
             id: 0,
@@ -13,6 +33,7 @@ export default function Projects() {
             url: "https://lanuitjedanse.herokuapp.com/",
             urlBackground: "/background1.jpg",
             css: "color1",
+            still: "/lanuitjedanse.png",
         },
         {
             id: 1,
@@ -23,6 +44,7 @@ export default function Projects() {
             url: "https://social-tracklist.herokuapp.com/",
             urlBackground: "/background4.jpg",
             css: "color2",
+            still: "/tracklist2.png",
         },
         {
             id: 2,
@@ -33,20 +55,43 @@ export default function Projects() {
             url: "https://stormy-chamber-44911.herokuapp.com/register",
             urlBackground: "/background3.jpg",
             css: "color3",
+            still: "/petition.png",
+        },
+        {
+            id: 3,
+            name: "Soundify",
+            description:
+                "Soundify is a platform to search for music on Spotify. JQuery and Spotify' API.",
+            image: "/soundify.gif",
+            url: "",
+            urlBackground: "/background5.jpg",
+            css: "color4",
+            still: "/soundify.png",
+        },
+        {
+            id: 4,
+            name: "Connect Four Special Ru Paul's Drag Race Edition",
+            description: "Connect four project done with JQuery.",
+            image: "/dragrace.gif",
+            url: "",
+            urlBackground: "/background6.jpg",
+            css: "color5",
+            still: "/dragrace.png",
         },
     ];
 
     return (
         <>
             {projects &&
-                projects.map((project) => (
+                projects.map((project, index) => (
                     <div className="no-margin" key={project.id}>
                         <div className="box-project">
                             <div className="box-left">
-                                <img
-                                    className="project-pic"
-                                    src={project.image}
-                                    alt={`screenshot of ${project.name}`}
+                                <GifPlayer
+                                    gif={project.image}
+                                    onClick={(e) => playOrPause(e)}
+                                    still={project.still}
+                                    alt={project.name}
                                 />
                             </div>
                             <div className={`box-right ${project.css}`}>
@@ -54,16 +99,19 @@ export default function Projects() {
                                 <p className="description">
                                     {project.description}
                                 </p>
-                                <a
-                                    href={project.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                >
-                                    <Next
-                                        alt="go icon"
-                                        className={`project-icon rotate-center ${project.css}`}
-                                    />
-                                </a>
+
+                                {project.url !== "" && (
+                                    <a
+                                        href={project.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                        <Next
+                                            alt="go icon"
+                                            className={`project-icon rotate-center ${project.css}`}
+                                        />
+                                    </a>
+                                )}
                             </div>
                         </div>
                         <img

@@ -1,43 +1,35 @@
 import React from "react";
+import Menu from "./Menu.css";
 import { NavLink, Router } from "react-router-dom";
-import resume from "./online-resume.svg";
-import home from "./home.svg";
-import contact from "./communicate.svg";
+import { ReactComponent as Resume } from "./online-resume.svg";
 
-export default function HamburgerMenu({ toggleBurgerMenu }) {
+import { ReactComponent as Home } from "./home.svg";
+import { ReactComponent as Contact } from "./communicate.svg";
+
+// import contact from "./communicate.svg";
+
+export default function HamburgerMenu({ toggleMenu }) {
     return (
         <nav>
             <ul className="menu">
                 <NavLink
-                    onClick={toggleBurgerMenu}
+                    onClick={toggleMenu}
                     exact
                     to="/"
                     activeClassName="burger-active"
                 >
-                    <img className="menu-icon" src={home} alt="home icon" />
+                    <Home className="nav-icon" alt="home icon" />
 
                     <li>Home</li>
                 </NavLink>
                 <NavLink
                     exact
-                    to="/resume"
+                    to="/about"
                     activeClassName="burger-active"
-                    onClick={toggleBurgerMenu}
+                    onClick={toggleMenu}
                 >
-                    <img className="menu-icon" src={resume} alt="resume icon" />
-                    <li>Resume</li>
-                </NavLink>
-                <NavLink
-                    onClick={toggleBurgerMenu}
-                    to="/contact-me"
-                    activeClassName="burger-active"
-                >
-                    <img
-                        className="menu-icon"
-                        src={contact}
-                        alt="contact icon"
-                    />
-                    <li>Contact me</li>
+                    <Resume className="nav-icon" alt="resume icon" />
+                    <li>About Me</li>
                 </NavLink>
             </ul>
         </nav>

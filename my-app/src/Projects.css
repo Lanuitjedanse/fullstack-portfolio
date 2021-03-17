@@ -25,7 +25,7 @@
     /* background-color: black; */
 }
 
-.project-pic {
+.gif_player {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -89,9 +89,50 @@
     fill: #5adcde;
 }
 
+.color4 {
+    color: #3e7cfb;
+}
+
+.color4:hover {
+    background-color: #3e7cfb;
+    color: white;
+}
+.color5 {
+    color: #8050f9;
+}
+
+.color5:hover {
+    background-color: #8050f9;
+    color: white;
+}
+
 .no-margin {
     display: flex;
     flex-direction: column;
+}
+
+.gif_player .play_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+}
+
+.box-right h2 {
+    font-size: 18px;
+}
+
+.gif_player .play_button::after {
+    content: "PLAY";
+}
+.gif_player img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @-webkit-keyframes rotate-center {
@@ -121,7 +162,7 @@
     }
 
     .description {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .project-icon {
@@ -131,13 +172,31 @@
     }
 
     .box-right h2 {
-        font-size: 15px;
+        font-size: 18px;
+    }
+    h3 {
+        font-size: 14px;
+        margin: 0px 15px;
+    }
+
+    .about-box {
+        min-height: calc(100vh - 260px);
+    }
+
+    .title-portfolio {
+        flex-direction: column;
     }
 }
 
 @media screen and (min-width: 700px) and (max-width: 950px) {
     .box-project {
         height: 70vh;
+    }
+
+    .gif_player {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     .description {
@@ -154,6 +213,9 @@
         font-size: 15px;
         justify-content: center;
     }
+    .about-box {
+        min-height: calc(100vh - 260px);
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 450px) {
@@ -161,8 +223,13 @@
         height: 90vh;
     }
 
+    .gif_player {
+        height: 100%;
+        width: 100%;
+    }
+
     .description {
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 
@@ -180,8 +247,13 @@
         height: 40px;
     }
 
-    .box-right h2 {
-        font-size: 15px;
+    .play-icon {
+        height: 40px;
+        fill: hotpink;
+        z-index: 300;
+    }
+    .about-box {
+        min-height: calc(100vh - 260px);
     }
 }
 
@@ -194,6 +266,10 @@
 
     h1 {
         font-size: 25px;
+    }
+    .gif_player {
+        height: 100%;
+        width: 100%;
     }
 
     .box-project {
@@ -231,7 +307,7 @@
         justify-content: space-evenly;
     }
     .description {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .project-icon {
@@ -242,5 +318,12 @@
     .menu-icon {
         height: 40px;
         width: 40px;
+    }
+
+    .title-portfolio {
+        height: 67%;
+    }
+    .about-box {
+        min-height: calc(100vh - 260px);
     }
 }

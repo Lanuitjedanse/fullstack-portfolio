@@ -4,17 +4,34 @@
 }
 .box-footer {
     display: flex;
+    width: 100vw;
+
     justify-content: space-evenly;
+    background-color: black;
+}
+
+.absolute {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-about {
+    bottom: 0;
+    position: absolute;
 }
 
 .made-by {
     height: 30px;
     color: white;
-    background-color: black;
+    background-color: white;
     text-align: center;
 }
 
 .email {
     text-decoration: none;
-    color: black;
+    color: white;
 }

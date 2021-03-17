@@ -6,17 +6,21 @@
 body {
     /* width: 100vw;
     height: 100vh; */
-    font-family: "Inconsolata", monospace;
-}
-
-.app {
-    display: flex;
+    /* font-family: "Inconsolata", monospace; */
+    font-family: "Thasadith", sans-serif;
 }
 
 .banner {
     width: 100vw;
     height: 45vh;
     object-fit: cover;
+}
+
+.menu-icon {
+    height: 50px;
+    width: 50px;
+    fill: white;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -67,10 +71,5 @@ body {
     .row p,
     a {
         font-size: 12px;
-    }
-
-    .menu-icon {
-        height: 50px;
-        width: 50px;
     }
 }
