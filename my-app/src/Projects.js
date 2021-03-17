@@ -1,28 +1,28 @@
 import "./Projects.css";
 import React from "react";
-import ReactDOM from "react-dom";
-import GifPlayer from "react-gif-player";
-import playButton from "./play-button.svg";
+// import ReactDOM from "react-dom";
+// import GifPlayer from "react-gif-player";
+// import playButton from "./play-button.svg";
 
 // import MyGifWrapper from "./MyGifWrapper";
 
 // import GifPlayer from "./GifPlayer";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 import { ReactComponent as Next } from "./next.svg";
 
 // import { Link } from "react-router-dom";
 export default function Projects() {
-    const [play, setPlay] = useState(false);
-    // const [buttonVisible, setButtonVisible] = useState(true);
+    // const [play, setPlay] = useState(false);
+    // // const [buttonVisible, setButtonVisible] = useState(true);
 
-    // const pause = () => {
+    // // const pause = () => {
+    // //     setPlay(!play);
+    // // };
+    // console.log("setPlay: ", setPlay);
+    // const playOrPause = (e) => {
     //     setPlay(!play);
     // };
-    console.log("setPlay: ", setPlay);
-    const playOrPause = (e) => {
-        setPlay(!play);
-    };
     const projects = [
         {
             id: 0,
@@ -87,11 +87,10 @@ export default function Projects() {
                     <div className="no-margin" key={project.id}>
                         <div className="box-project">
                             <div className="box-left">
-                                <GifPlayer
-                                    gif={project.image}
-                                    onClick={(e) => playOrPause(e)}
-                                    still={project.still}
+                                <img
+                                    src={project.image}
                                     alt={project.name}
+                                    className="gif_player"
                                 />
                             </div>
                             <div className={`box-right ${project.css}`}>
@@ -124,3 +123,10 @@ export default function Projects() {
         </>
     );
 }
+
+// <GifPlayer
+//     gif={project.image}
+//     onClick={(e) => playOrPause(e)}
+//     still={project.still}
+//     alt={project.name}
+// />;

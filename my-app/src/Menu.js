@@ -1,10 +1,10 @@
 import React from "react";
-import Menu from "./Menu.css";
-import { NavLink, Router } from "react-router-dom";
+import "./Menu.css";
+import { NavLink } from "react-router-dom";
 import { ReactComponent as Resume } from "./online-resume.svg";
 
 import { ReactComponent as Home } from "./home.svg";
-import { ReactComponent as Contact } from "./communicate.svg";
+// import { ReactComponent as Contact } from "./communicate.svg";
 
 // import contact from "./communicate.svg";
 

@@ -3,7 +3,7 @@ import "./Footer.css";
 import { ReactComponent as Email } from "./email.svg";
 import { ReactComponent as Github } from "./github.svg";
 import { ReactComponent as LinkedIn } from "./linkedin.svg";
-import { useState } from "react";
+// import { useState } from "react";
 
 export default function Footer() {
     return (

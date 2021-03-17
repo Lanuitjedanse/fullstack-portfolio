@@ -1,10 +1,10 @@
 import "./Header.css";
-import portfolio from "./portfolio.svg";
+// import portfolio from "./portfolio.svg";
 import HamburgerMenu from "./Menu";
 import menu from "./menu.svg";
 import cancel from "./cancel.svg";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
