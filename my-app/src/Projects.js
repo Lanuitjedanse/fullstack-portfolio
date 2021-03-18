@@ -48,6 +48,17 @@ export default function Projects() {
         },
         {
             id: 2,
+            name: "Greenstagram",
+            description:
+                "My second fullstack project, this project was done in 1 week, using Node.js, Vue.js and Postgres. It is a social media platform similar to instagram for plant lovers",
+            image: "/greenstagram.gif",
+            url: "",
+            urlBackground: "/background8.jpg",
+            css: "color6",
+            still: "/greenstagram.png",
+        },
+        {
+            id: 3,
             name: "Petition for Cheese Rights",
             description:
                 "My first fullstack project at Spiced Academy. This project was done in 2 weeks using Node.js, Handlebars and Postgres. This is a petition website for cheese rights :) ",
@@ -58,7 +69,7 @@ export default function Projects() {
             still: "/petition.png",
         },
         {
-            id: 3,
+            id: 4,
             name: "Soundify",
             description:
                 "Soundify is a platform to search for music on Spotify. JQuery and Spotify' API.",
@@ -69,7 +80,7 @@ export default function Projects() {
             still: "/soundify.png",
         },
         {
-            id: 4,
+            id: 5,
             name: "Connect Four Special Ru Paul's Drag Race Edition",
             description: "Connect four project done with JQuery.",
             image: "/dragrace.gif",

@@ -106,9 +106,22 @@
     color: white;
 }
 
+.color6 {
+    color: #01ff79;
+}
+
+.color6:hover {
+    background-color: #01ff79;
+    color: white;
+}
+
 .no-margin {
     display: flex;
     flex-direction: column;
+}
+
+p.description {
+    font-weight: bold;
 }
 
 .gif_player .play_button {
