@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="about-box">
             <div className="pic-box">
-                <h2>About</h2>
+                <h2>About me</h2>
                 <img
                     src="/me-pic.png"
                     alt="lucie bellenger"

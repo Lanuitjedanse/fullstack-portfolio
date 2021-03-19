@@ -26,7 +26,7 @@ export default function Footer() {
                         rel="noreferrer"
                         target="_blank"
                     >
-                        Lanuitjedanse
+                        GitHub
                     </a>
                 </div>
                 <div className="row">
