@@ -52,8 +52,8 @@ export default function Projects() {
             description:
                 "My second fullstack project, this project was done in 1 week, using Node.js, Vue.js and Postgres. It is a social media platform similar to instagram for plant lovers",
             image: "/greenstagram.gif",
-            url: "",
-            urlBackground: "/background8.jpg",
+            url: "https://lucie-greenstagram.herokuapp.com/",
+            urlBackground: "/background9.png",
             css: "color6",
             still: "/greenstagram.png",
         },

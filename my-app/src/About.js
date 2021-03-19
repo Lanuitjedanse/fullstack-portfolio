@@ -34,6 +34,8 @@ export default function About() {
                     <p>Postgres</p>
                     <p>Redux</p>
                     <p>Socket.io</p>
+                    <p>AWS</p>
+                    <p>Heroku</p>
                 </div>
             </div>
         </div>

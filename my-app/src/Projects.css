@@ -68,14 +68,14 @@
 }
 
 .color2 {
-    color: #fcb0e9;
-    fill: #fcb0e9;
+    color: #ffc042;
+    fill: #ffc042;
 }
 
 .color2:hover {
     color: white;
-    background-color: #fcb0e9;
-    fill: #fcb0e9;
+    background-color: #ffc042;
+    fill: #ffc042;
 }
 
 .color3 {
@@ -107,11 +107,12 @@
 }
 
 .color6 {
-    color: #01ff79;
+    color: #f8baf4;
+    fill: #f8baf4;
 }
 
 .color6:hover {
-    background-color: #01ff79;
+    background-color: #f8baf4;
     color: white;
 }
 
