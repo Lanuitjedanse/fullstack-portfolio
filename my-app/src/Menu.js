@@ -1,37 +1,37 @@
-import React from "react";
+// import React from "react";
 import "./Menu.css";
 import { NavLink } from "react-router-dom";
 import { ReactComponent as Resume } from "./online-resume.svg";
 
 import { ReactComponent as Home } from "./home.svg";
-// import { ReactComponent as Contact } from "./communicate.svg";
 
-// import contact from "./communicate.svg";
+export default function Menu({ toggleMenu, menuOpen }) {
+  console.log("menuOpen: ", menuOpen);
+  return (
+    <div
+      className={menuOpen ? "hamburger-menu-opened" : "hamburger-menu-closed"}
+    >
+      <ul className="menu">
+        <NavLink
+          onClick={toggleMenu}
+          exact
+          to="/"
+          activeClassName="burger-active"
+        >
+          <Home className="nav-icon" alt="home icon" />
 
-export default function HamburgerMenu({ toggleMenu }) {
-    return (
-        <nav>
-            <ul className="menu">
-                <NavLink
-                    onClick={toggleMenu}
-                    exact
-                    to="/"
-                    activeClassName="burger-active"
-                >
-                    <Home className="nav-icon" alt="home icon" />
-
-                    <li>Home</li>
-                </NavLink>
-                <NavLink
-                    exact
-                    to="/about"
-                    activeClassName="burger-active"
-                    onClick={toggleMenu}
-                >
-                    <Resume className="nav-icon" alt="resume icon" />
-                    <li>About Me</li>
-                </NavLink>
-            </ul>
-        </nav>
-    );
+          <li>Home</li>
+        </NavLink>
+        <NavLink
+          exact
+          to="/about"
+          activeClassName="burger-active"
+          onClick={toggleMenu}
+        >
+          <Resume className="nav-icon" alt="resume icon" />
+          <li>About Me</li>
+        </NavLink>
+      </ul>
+    </div>
+  );
 }
