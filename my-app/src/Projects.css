@@ -100,10 +100,21 @@
 }
 .color5 {
   color: #8050f9;
+  fill: #8050f9;
 }
 
 .color5:hover {
   background-color: #8050f9;
+  color: white;
+}
+
+.color9 {
+  color: #1698e9;
+  fill: #1698e9;
+}
+
+.color9:hover {
+  background-color: #1698e9;
   color: white;
 }
 
