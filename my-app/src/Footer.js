@@ -32,7 +32,7 @@ export default function Footer() {
           <GitLab className="menu-icon color-icon" />
           <a
             className="email"
-            href="https://www.linkedin.com/in/lucie-bellenger-890b9860/"
+            href="https://gitlab.com/Lucie.bellenger"
             target="_blank"
             rel="noreferrer"
           >
