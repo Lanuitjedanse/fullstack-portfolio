@@ -1,75 +1,75 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {
-    /* width: 100vw;
+  /* width: 100vw;
     height: 100vh; */
-    /* font-family: "Inconsolata", monospace; */
-    font-family: "Thasadith", sans-serif;
+  /* font-family: "Inconsolata", monospace; */
+  font-family: "Thasadith", sans-serif;
 }
 
 .banner {
-    width: 100vw;
-    height: 45vh;
-    object-fit: cover;
+  width: 100vw;
+  height: 45vh;
+  object-fit: cover;
 }
 
 .menu-icon {
-    height: 50px;
-    width: 50px;
-    fill: white;
-    opacity: 1;
+  height: 50px;
+  width: 50px;
+  color: white !important;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 600px) {
-    .banner {
-        width: 100vw;
-        height: 25vh;
-        object-fit: cover;
-    }
+  .banner {
+    width: 100vw;
+    height: 25vh;
+    object-fit: cover;
+  }
 
-    h1 {
-        font-size: 25px;
-    }
+  h1 {
+    font-size: 25px;
+  }
 
-    .box-project {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 95vh;
-        /* justify-content: space-between; */
-        /* height: 45vh; */
-        width: 100vw;
-    }
+  .box-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    /* justify-content: space-between; */
+    /* height: 45vh; */
+    width: 100vw;
+  }
 
-    .box-left {
-        display: flex;
-        width: 100%;
-        height: 50%;
-        /* width: 50%; */
-        flex-direction: column;
-    }
+  .box-left {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /* width: 50%; */
+    flex-direction: column;
+  }
 
-    .box-right {
-        width: 100%;
-        height: 50%;
-        /* width: 50%; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  .box-right {
+    width: 100%;
+    height: 50%;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .box-footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .row p,
-    a {
-        font-size: 12px;
-    }
+  .box-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .row p,
+  a {
+    font-size: 15px;
+  }
 }
