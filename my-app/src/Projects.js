@@ -88,6 +88,7 @@ export default function Projects() {
       description:
         "Soundify is a platform to search for music on Spotify. JQuery and Spotify' API.",
       url: "",
+      css: "color4",
       urlBackground:
         "https://images.unsplash.com/photo-1484597353563-eda230e1a15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80",
       still: "/soundify.png",
