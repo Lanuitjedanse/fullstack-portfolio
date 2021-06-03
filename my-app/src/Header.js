@@ -4,8 +4,6 @@ import Menu from "./Menu";
 import { ReactComponent as MenuIcon } from "./bars-solid.svg";
 import { ReactComponent as Cancel } from "./times-solid.svg";
 
-import cancel from "./cancel.svg";
-
 import { useState } from "react";
 
 export default function Header() {
