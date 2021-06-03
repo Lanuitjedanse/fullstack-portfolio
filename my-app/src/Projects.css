@@ -43,7 +43,7 @@
   line-height: 2em;
 }
 
-.box-right:hover svg {
+.box-right:hover * {
   fill: white;
 }
 
@@ -65,7 +65,7 @@
 .color1:hover {
   color: white;
   background-color: #8e97ff;
-  fill: #8e97ff;
+  fill: white;
 }
 
 .color2 {
@@ -125,6 +125,16 @@
 
 .color6:hover {
   background-color: #f8baf4;
+  color: white;
+}
+
+.color10 {
+  color: #eca3f5;
+  fill: #eca3f5;
+}
+
+.color10:hover {
+  background-color: #eca3f5;
   color: white;
 }
 
@@ -205,9 +215,9 @@ p.description {
     margin: 0px 15px;
   }
 
-  .about-box {
+  /* .about-box {
     min-height: calc(100vh - 260px);
-  }
+  } */
 
   .title-portfolio {
     flex-direction: column;
@@ -239,9 +249,9 @@ p.description {
     font-size: 15px;
     justify-content: center;
   }
-  .about-box {
+  /* .about-box {
     min-height: calc(100vh - 260px);
-  }
+  } */
 }
 
 @media screen and (min-width: 300px) and (max-width: 450px) {
@@ -278,9 +288,9 @@ p.description {
     fill: hotpink;
     z-index: 300;
   }
-  .about-box {
+  /* .about-box {
     min-height: calc(100vh - 260px);
-  }
+  } */
 }
 
 @media only screen and (min-width: 600px) and (max-width: 850px) {
@@ -349,7 +359,7 @@ p.description {
   .title-portfolio {
     height: 67%;
   }
-  .about-box {
+  /* .about-box {
     min-height: calc(100vh - 260px);
-  }
+  } */
 }
