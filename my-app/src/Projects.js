@@ -1,7 +1,7 @@
 import "./Projects.css";
 import React from "react";
 
-import { ReactComponent as Next } from "./next.svg";
+import { ReactComponent as Next } from "./chevron-circle-right-solid.svg";
 import { ReactComponent as GitHubIcon } from "./github-brands.svg";
 
 export default function Projects() {

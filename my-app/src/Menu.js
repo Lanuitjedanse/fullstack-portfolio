@@ -1,9 +1,9 @@
 // import React from "react";
 import "./Menu.css";
 import { NavLink } from "react-router-dom";
-import { ReactComponent as Resume } from "./online-resume.svg";
+import { ReactComponent as Resume } from "./address-card-solid.svg";
 
-import { ReactComponent as Home } from "./home.svg";
+import { ReactComponent as Home } from "./home-solid.svg";
 
 export default function Menu({ toggleMenu, menuOpen }) {
   console.log("menuOpen: ", menuOpen);

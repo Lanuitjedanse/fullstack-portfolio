@@ -1,7 +1,9 @@
 import "./Header.css";
 // import portfolio from "./portfolio.svg";
 import Menu from "./Menu";
-import menu from "./menu.svg";
+import { ReactComponent as MenuIcon } from "./bars-solid.svg";
+import { ReactComponent as Cancel } from "./times-solid.svg";
+
 import cancel from "./cancel.svg";
 
 import { useState } from "react";
@@ -9,12 +11,12 @@ import { useState } from "react";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  let src;
-  if (menuOpen) {
-    src = cancel;
-  } else {
-    src = menu;
-  }
+  // let src;
+  // if (menuOpen) {
+  //   src = cancel;
+  // } else {
+  //   src = menu;
+  // }
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -29,7 +31,16 @@ export default function Header() {
           <h3>Full Stack Web Developer</h3>
         </div>
 
-        <img src={src} className="hamburger" alt="logo" onClick={toggleMenu} />
+        {!menuOpen && (
+          <MenuIcon
+            className="hamburger"
+            alt="hamburger menu"
+            onClick={toggleMenu}
+          />
+        )}
+        {menuOpen && (
+          <Cancel className="hamburger" alt="close icon" onClick={toggleMenu} />
+        )}
       </header>
 
       <Menu toggleMenu={toggleMenu} menuOpen={menuOpen} />
