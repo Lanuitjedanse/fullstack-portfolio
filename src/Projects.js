@@ -36,7 +36,7 @@ export default function Projects() {
       name: "Lanuitjedanse",
       description:
         "My final fullstack project during the bootcamp at Spiced Academy. Lanuitjedanse allows you to find a bar or a club depending on your music taste. This project was done using Node.js, React, PostgresSQL and Google Maps API.",
-      url: "https://lanuitjedanse.herokuapp.com/",
+      url: "",
       urlBackground:
         "https://images.unsplash.com/photo-1565626424178-c699f6601afd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80",
       css: "color1",
@@ -49,7 +49,7 @@ export default function Projects() {
       name: "Tracklist",
       description:
         "My third fullstack project at Spiced Academy using Node.js, React and Postgres. It is a social media platform for music lovers.",
-      url: "https://social-tracklist.herokuapp.com/",
+      url: "",
       urlBackground:
         "https://images.unsplash.com/photo-1567675988757-5d73c37f2490?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80",
       css: "color2",
@@ -61,7 +61,7 @@ export default function Projects() {
       name: "Greenstagram",
       description:
         "My second fullstack project, this project was done using Node.js, Vue.js and Postgres. It is a social media platform similar to instagram for plant lovers",
-      url: "https://lucie-greenstagram.herokuapp.com/",
+      url: "",
       urlBackground:
         "https://images.unsplash.com/photo-1565626420105-deceab597aa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
       css: "color6",
@@ -74,7 +74,7 @@ export default function Projects() {
       name: "Petition for Cheese Rights",
       description:
         "My first fullstack project at Spiced Academy. This project was done using Node.js, Handlebars and Postgres. This is a petition website for cheese rights :) ",
-      url: "https://stormy-chamber-44911.herokuapp.com/register",
+      url: "",
       urlBackground:
         "https://images.unsplash.com/photo-1573012678310-a451f9841bb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1926&q=80",
       css: "color3",
